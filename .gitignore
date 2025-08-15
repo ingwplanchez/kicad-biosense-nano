@@ -1,55 +1,50 @@
-# Prerequisites
-*.d
+# Archivos de KiCad que deben ser ignorados
+# ----------------------------------------
+# Estos archivos son generados automáticamente y no deben ser versionados.
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Archivos de respaldo
+*.bak
+*.orig
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Archivos de lista de red (netlist)
+*.net
 
-# Precompiled Headers
-*.gch
-*.pch
+# Archivos de la vista 3D
+*-cache.lib
+*-cache.kicad_sym
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Archivos de impresión y de gráficos
+*.gbr
+*.drl
+*.gko
+*.pos
+*.cmp
+*.rpt
+*.txt
+*.gerb
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Archivos de la librería de símbolos
+*.dcm
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Archivos de historial
+*.kicad_pcb-bak
+*.sch-bak
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Archivos del proyecto y la interfaz de usuario
+fp-lib-table
+sym-lib-table
+.kicad_pro.bak
+.kicad_pcb.bak
+.sch-bak
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Archivos temporales y de caché
+*.kicad_pcb-bkp
+*.kicad_sch-bkp
+*-bak.pro
 
-# debug information files
-*.dwo
+# Archivos de la simulación
+*.spice
+*.spicesim
+
+# Archivos de la librería de huellas (footprints)
+*.kicad_mod-bak
